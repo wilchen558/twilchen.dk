@@ -9,7 +9,7 @@ export default {
   name: "App",
   metaInfo: {
     title: 'Welcome',
-    titleTemplate: '%s | Comming soon',
+    titleTemplate: '%s | Coming soon',
     meta: [
       { name: 'description', content: 'Playground for Tobias Wilchen - Web developer based in Copenhagen' },
     ]
