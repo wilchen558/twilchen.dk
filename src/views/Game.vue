@@ -9,10 +9,10 @@
 <script>
 export default {
   name: "game",
-  data () {
+  data() {
     return {
-      games: ['Dota', 'CSGO']
-    }
+      games: ["Dota2", "CSGO"]
+    };
   }
 };
 </script>
