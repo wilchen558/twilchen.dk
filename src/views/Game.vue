@@ -11,8 +11,24 @@ export default {
   name: "game",
   data() {
     return {
-      games: ["Dota2", "CSGO"]
+      games: ["Dota 2", "CSGO"]
     };
   }
 };
 </script>
+
+<style scoped lang="scss">
+div {
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-51%, -50%);
+
+  h1 {
+    font-size: 8em;
+    font-family: "Source Code Pro", monospace;
+    font-weight: normal;
+  }
+}
+</style>
